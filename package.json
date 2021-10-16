@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-docker-starting-point",
+  "version": "1.0.0",
+  "description": "Starting point build node app on docker container",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon -L index.js"
+  },
+  "keywords": [],
+  "author": "Isidoro Mendez <isidoro.mendez@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
